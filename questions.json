@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "Q001",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which of the following data structures allows random access in O(1) time?",
+    "options": ["Array", "Linked List", "Stack", "Queue"],
+    "correct_option": 0,
+    "hint": "Think about how elements are stored in memory.",
+    "answer_keywords": ["Array", "contiguous memory", "O(1) access"]
+  },
+  {
+    "id": "Q002",
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "What is the worst-case time complexity for searching an element in a balanced binary search tree?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 1,
+    "hint": "Think about the height of the tree.",
+    "answer_keywords": ["O(log n)", "height", "balanced BST"]
+  },
+  {
+    "id": "Q003",
+    "topic": "Algorithms",
+    "difficulty": "Easy",
+    "question": "Which sorting algorithm is stable and has a worst-case time complexity of O(n^2)?",
+    "options": ["QuickSort", "MergeSort", "Bubble Sort", "HeapSort"],
+    "correct_option": 2,
+    "hint": "It repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.",
+    "answer_keywords": ["Bubble Sort", "stable", "O(n^2)"]
+  },
+  {
+    "id": "Q004",
+    "topic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "Which algorithm is used to find the shortest path in a graph with non-negative edge weights?",
+    "options": [
+      "Prim's Algorithm",
+      "Dijkstra's Algorithm",
+      "Kruskal's Algorithm",
+      "Bellman-Ford Algorithm"
+    ],
+    "correct_option": 1,
+    "hint": "It uses a greedy approach and a priority queue.",
+    "answer_keywords": ["Dijkstra", "shortest path", "non-negative weights"]
+  },
+  {
+    "id": "Q005",
+    "topic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "Which of the following is NOT a necessary condition for deadlock?",
+    "options": [
+      "Mutual Exclusion",
+      "Hold and Wait",
+      "Preemption",
+      "Circular Wait"
+    ],
+    "correct_option": 2,
+    "hint": "There are four classic conditions.",
+    "answer_keywords": ["Preemption", "not required", "deadlock conditions"]
+  },
+  {
+    "id": "Q006",
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which memory management technique allows the execution of processes that are not completely in memory?",
+    "options": [
+      "Paging",
+      "Segmentation",
+      "Virtual Memory",
+      "Contiguous Allocation"
+    ],
+    "correct_option": 2,
+    "hint": "It uses disk as an extension of RAM.",
+    "answer_keywords": ["Virtual Memory", "disk", "extension of RAM"]
+  },
+  {
+    "id": "Q007",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "Which property of a transaction ensures that either all operations are completed or none are?",
+    "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+    "correct_option": 0,
+    "hint": "It's the 'A' in ACID.",
+    "answer_keywords": ["Atomicity", "all or nothing"]
+  },
+  {
+    "id": "Q008",
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "Which normal form eliminates partial dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "correct_option": 1,
+    "hint": "It comes after 1NF.",
+    "answer_keywords": ["2NF", "partial dependency"]
+  },
+  {
+    "id": "Q009",
+    "topic": "Networking",
+    "difficulty": "Easy",
+    "question": "Which protocol is connection-oriented and reliable?",
+    "options": ["UDP", "TCP", "IP", "HTTP"],
+    "correct_option": 1,
+    "hint": "It uses a handshake to establish a connection.",
+    "answer_keywords": ["TCP", "connection-oriented", "reliable"]
+  },
+  {
+    "id": "Q010",
+    "topic": "Networking",
+    "difficulty": "Medium",
+    "question": "Which layer of the OSI model is responsible for end-to-end communication?",
+    "options": [
+      "Network Layer",
+      "Transport Layer",
+      "Session Layer",
+      "Data Link Layer"
+    ],
+    "correct_option": 1,
+    "hint": "It deals with TCP and UDP.",
+    "answer_keywords": ["Transport Layer", "end-to-end communication"]
+  },
+  {
+    "id": "Q011",
+    "topic": "OOP",
+    "difficulty": "Easy",
+    "question": "Which pillar of OOP is about hiding internal details and showing only functionality?",
+    "options": ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+    "correct_option": 0,
+    "hint": "It's about simplifying complexity.",
+    "answer_keywords": ["Abstraction", "hiding details"]
+  },
+  {
+    "id": "Q012",
+    "topic": "OOP",
+    "difficulty": "Medium",
+    "question": "Which OOP concept allows a subclass to provide a specific implementation of a method already defined in its superclass?",
+    "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "correct_option": 2,
+    "hint": "It's about many forms.",
+    "answer_keywords": ["Polymorphism", "method overriding"]
+  },
+  {
+    "id": "Q013",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "What is the time complexity of searching in a linear search?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 2,
+    "hint": "You have to check each element one by one.",
+    "answer_keywords": ["O(n)", "linear time"]
+  },
+  {
+    "id": "Q014",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "What is the space complexity of a binary search tree with n nodes?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 2,
+    "hint": "Each node takes constant space.",
+    "answer_keywords": ["O(n)", "linear space"]
+  },
+  {
+    "id": "Q015",
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which data structure is used to implement a priority queue?",
+    "options": ["Array", "Linked List", "Heap", "Stack"],
+    "correct_option": 2,
+    "hint": "It maintains order based on priority.",
+    "answer_keywords": ["Heap", "priority queue"]
+  },
+  {
+    "id": "Q016",
+    "topic": "Algorithms",
+    "difficulty": "Easy",
+    "question": "What is the best case time complexity of insertion sort?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 2,
+    "hint": "When the array is already sorted.",
+    "answer_keywords": ["O(n)", "best case insertion sort"]
+  },
+  {
+    "id": "Q017",
+    "topic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "Which sorting algorithm uses the divide and conquer strategy?",
+    "options": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Merge Sort",
+      "Selection Sort"
+    ],
+    "correct_option": 2,
+    "hint": "It divides the array into two halves, sorts them, and merges them.",
+    "answer_keywords": ["Merge Sort", "divide and conquer"]
+  },
+  {
+    "id": "Q018",
+    "topic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is the purpose of the operating system's kernel?",
+    "options": [
+      "To manage hardware resources",
+      "To provide a user interface",
+      "To compile programs",
+      "To debug programs"
+    ],
+    "correct_option": 0,
+    "hint": "It's the core part of the OS.",
+    "answer_keywords": ["kernel", "hardware management"]
+  },
+  {
+    "id": "Q019",
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is a semaphore in operating systems?",
+    "options": [
+      "A variable that controls access to a shared resource",
+      "A type of memory management technique",
+      "A scheduling algorithm",
+      "A file system structure"
+    ],
+    "correct_option": 0,
+    "hint": "It's used for synchronization.",
+    "answer_keywords": ["semaphore", "synchronization"]
+  },
+  {
+    "id": "Q020",
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "Which of the following is a characteristic of a real-time operating system?",
+    "options": [
+      "It responds to input instantly",
+      "It is used for general-purpose computing",
+      "It supports multitasking",
+      "It is used in embedded systems"
+    ],
+    "correct_option": 0,
+    "hint": "It has strict timing constraints.",
+    "answer_keywords": ["real-time OS", "timing constraints"]
+  },
+  {
+    "id": "Q021",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "What is a foreign key in a relational database?",
+    "options": [
+      "A key that uniquely identifies a record",
+      "A key that references a primary key in another table",
+      "A key that is used for indexing",
+      "A key that is used for sorting"
+    ],
+    "correct_option": 1,
+    "hint": "It establishes a relationship between tables.",
+    "answer_keywords": ["foreign key", "relationship"]
+  },
+  {
+    "id": "Q022",
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "What is the difference between a primary key and a unique key?",
+    "options": [
+      "A primary key can have NULL values, while a unique key cannot",
+      "A unique key can have NULL values, while a primary key cannot",
+      "There is no difference; they are the same",
+      "A primary key is used for clustering, while a unique key is not"
+    ],
+    "correct_option": 1,
+    "hint": "Think about NULL values.",
+    "answer_keywords": ["primary key vs unique key", "NULL values"]
+  },
+  {
+    "id": "Q023",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "Which SQL command is used to remove a table from the database?",
+    "options": ["DELETE", "DROP TABLE", "REMOVE TABLE", "TRUNCATE TABLE"],
+    "correct_option": 1,
+    "hint": "It permanently deletes the table.",
+    "answer_keywords": ["DROP TABLE", "remove table"]
+  },
+  {
+    "id": "Q024",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "What is the purpose of the WHERE clause in SQL?",
+    "options": [
+      "To specify the columns to be selected",
+      "To specify the condition for filtering rows",
+      "To specify the order of the result set",
+      "To specify the grouping of rows"
+    ],
+    "correct_option": 1,
+    "hint": "It filters the rows based on a condition.",
+    "answer_keywords": ["WHERE clause", "filter rows"]
+  },
+  {
+    "id": "Q025",
+    "topic": "Networking",
+    "difficulty": "Easy",
+    "question": "Which networking device operates at the data link layer of the OSI model?",
+    "options": ["Router", "Switch", "Hub", "Gateway"],
+    "correct_option": 1,
+    "hint": "It connects devices within the same network.",
+    "answer_keywords": ["switch", "data link layer"]
+  },
+  {
+    "id": "Q026",
+    "topic": "Networking",
+    "difficulty": "Medium",
+    "question": "What is the difference between TCP and UDP?",
+    "options": [
+      "TCP is connection-oriented, while UDP is connectionless",
+      "TCP is faster than UDP",
+      "TCP uses less bandwidth than UDP",
+      "TCP is used for real-time applications, while UDP is not"
+    ],
+    "correct_option": 0,
+    "hint": "TCP ensures reliable delivery, UDP does not.",
+    "answer_keywords": ["TCP vs UDP", "connection-oriented vs connectionless"]
+  },
+  {
+    "id": "Q027",
+    "topic": "Networking",
+    "difficulty": "Easy",
+    "question": "What is an IP address?",
+    "options": [
+      "A unique identifier for a device on a network",
+      "A protocol for transferring files over the internet",
+      "A type of firewall",
+      "A method for encrypting data"
+    ],
+    "correct_option": 0,
+    "hint": "It's like a phone number for computers.",
+    "answer_keywords": ["IP address", "unique identifier"]
+  },
+  {
+    "id": "Q028",
+    "topic": "OOP",
+    "difficulty": "Medium",
+    "question": "Which class in OOP represents the 'has-a' relationship?",
+    "options": ["Inheritance", "Composition", "Aggregation", "Association"],
+    "correct_option": 1,
+    "hint": "It's when one class contains another class as a member.",
+    "answer_keywords": ["composition", "has-a relationship"]
+  },
+  {
+    "id": "Q029",
+    "topic": "OOP",
+    "difficulty": "Easy",
+    "question": "What is method overloading in OOP?",
+    "options": [
+      "Defining multiple methods with the same name but different parameters",
+      "Defining multiple methods with the same name and same parameters",
+      "Defining a method in a subclass that overrides a method in the superclass",
+      "Defining a method that calls another method"
+    ],
+    "correct_option": 0,
+    "hint": "It's about having multiple methods with the same name.",
+    "answer_keywords": ["method overloading", "same name different parameters"]
+  },
+  {
+    "id": "Q030",
+    "topic": "OOP",
+    "difficulty": "Easy",
+    "question": "What is the purpose of the constructor in a class?",
+    "options": [
+      "To initialize the object's state",
+      "To destroy the object",
+      "To copy the object",
+      "To move the object"
+    ],
+    "correct_option": 0,
+    "hint": "It's called when an object is created.",
+    "answer_keywords": ["constructor", "initialize object"]
+  },
+  {
+    "id": "Q031",
+    "topic": "Algorithms",
+    "difficulty": "Easy",
+    "question": "What is Big O notation used for?",
+    "options": [
+      "To measure the space complexity of an algorithm",
+      "To measure the time complexity of an algorithm",
+      "To measure the number of operations an algorithm performs",
+      "All of the above"
+    ],
+    "correct_option": 3,
+    "hint": "It describes the performance of an algorithm.",
+    "answer_keywords": ["Big O", "time complexity", "space complexity"]
+  },
+  {
+    "id": "Q032",
+    "topic": "OOP",
+    "difficulty": "Easy",
+    "question": "Which of the following is not a type of inheritance in OOP?",
+    "options": [
+      "Single inheritance",
+      "Multiple inheritance",
+      "Multilevel inheritance",
+      "Circular inheritance"
+    ],
+    "correct_option": 3,
+    "hint": "Think about valid inheritance types.",
+    "answer_keywords": ["inheritance types", "circular inheritance"]
+  },
+  {
+    "id": "Q033",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "What is the purpose of indexing in databases?",
+    "options": [
+      "To speed up data retrieval",
+      "To ensure data integrity",
+      "To enforce referential integrity",
+      "To create relationships between tables"
+    ],
+    "correct_option": 0,
+    "hint": "It improves query performance.",
+    "answer_keywords": ["indexing", "data retrieval"]
+  },
+  {
+    "id": "Q034",
+    "topic": "Networking",
+    "difficulty": "Easy",
+    "question": "Which protocol is used for secure web browsing?",
+    "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+    "correct_option": 2,
+    "hint": "It uses encryption for security.",
+    "answer_keywords": ["HTTPS", "secure browsing"]
+  },
+  {
+    "id": "Q035",
+    "topic": "Computer Architecture",
+    "difficulty": "Easy",
+    "question": "What is the difference between RAM and ROM?",
+    "options": [
+      "RAM is volatile, ROM is non-volatile",
+      "RAM is used for long-term storage, ROM for short-term",
+      "RAM is read-only, ROM is read-write",
+      "There is no difference; they are the same"
+    ],
+    "correct_option": 0,
+    "hint": "Think about data retention when power is off.",
+    "answer_keywords": ["RAM vs ROM", "volatile vs non-volatile"]
+  },
+  {
+    "id": "Q036",
+    "topic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is a deadlock in operating systems?",
+    "options": [
+      "When two or more processes are unable to proceed because each is waiting for the other to release a resource",
+      "When a process is waiting for a resource that is not available",
+      "When a process is terminated abruptly",
+      "When multiple processes are competing for the same resource"
+    ],
+    "correct_option": 0,
+    "hint": "It involves a circular wait.",
+    "answer_keywords": ["deadlock", "circular wait"]
+  },
+  {
+    "id": "Q037",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which data structure is used to implement recursion?",
+    "options": ["Stack", "Queue", "Array", "Linked List"],
+    "correct_option": 0,
+    "hint": "It keeps track of function calls.",
+    "answer_keywords": ["stack", "recursion"]
+  },
+  {
+    "id": "Q038",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "What is the time complexity of finding an element in a hash table?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 0,
+    "hint": "It uses a hash function for quick lookup.",
+    "answer_keywords": ["hash table", "O(1)"]
+  },
+  {
+    "id": "Q039",
+    "topic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "options": ["Bubble Sort", "QuickSort", "Merge Sort", "Heap Sort"],
+    "correct_option": 1,
+    "hint": "It uses a pivot to partition the array.",
+    "answer_keywords": ["QuickSort", "average-case O(n log n)"]
+  },
+  {
+    "id": "Q040",
+    "topic": "OOP",
+    "difficulty": "Medium",
+    "question": "What is the purpose of garbage collection in programming languages?",
+    "options": [
+      "To free up memory occupied by objects that are no longer needed",
+      "To optimize the performance of the program",
+      "To prevent memory leaks",
+      "All of the above"
+    ],
+    "correct_option": 3,
+    "hint": "It manages memory automatically.",
+    "answer_keywords": ["garbage collection", "memory management"]
+  },
+  {
+    "id": "Q041",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "What is a graph in data structures?",
+    "options": [
+      "A collection of nodes connected by edges",
+      "A type of tree",
+      "A type of array",
+      "A type of linked list"
+    ],
+    "correct_option": 0,
+    "hint": "It represents relationships between entities.",
+    "answer_keywords": ["graph", "nodes and edges"]
+  },
+  {
+    "id": "Q042",
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "What is the difference between BFS and DFS?",
+    "options": [
+      "BFS uses a queue, DFS uses a stack",
+      "BFS uses a stack, DFS uses a queue",
+      "BFS is recursive, DFS is iterative",
+      "There is no difference"
+    ],
+    "correct_option": 0,
+    "hint": "Think about the data structure used for traversal.",
+    "answer_keywords": ["BFS vs DFS", "queue vs stack"]
+  },
+  {
+    "id": "Q043",
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "What is a hash collision?",
+    "options": [
+      "When two different keys map to the same hash value",
+      "When a key is not found in the hash table",
+      "When the hash table is full",
+      "When the hash function is not efficient"
+    ],
+    "correct_option": 0,
+    "hint": "It occurs when the hash function produces the same output.",
+    "answer_keywords": ["hash collision", "same hash value"]
+  },
+  {
+    "id": "Q044",
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "question": "What is the time complexity of the Fibonacci sequence using recursion?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(2^n)"],
+    "correct_option": 3,
+    "hint": "Each call branches into two recursive calls.",
+    "answer_keywords": ["Fibonacci", "O(2^n)"]
+  },
+  {
+    "id": "Q045",
+    "topic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What is memoization?",
+    "options": [
+      "A technique to store results of expensive function calls and reuse them when the same inputs occur again",
+      "A type of sorting algorithm",
+      "A way to optimize space complexity",
+      "A method to find the shortest path in a graph"
+    ],
+    "correct_option": 0,
+    "hint": "It improves the performance of recursive algorithms.",
+    "answer_keywords": ["memoization", "caching"]
+  },
+  {
+    "id": "Q046",
+    "topic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What is the purpose of the master theorem in algorithm analysis?",
+    "options": [
+      "To solve recurrences",
+      "To find the time complexity of sorting algorithms",
+      "To optimize code",
+      "To design algorithms"
+    ],
+    "correct_option": 0,
+    "hint": "It deals with recursive algorithms.",
+    "answer_keywords": ["master theorem", "recurrence relations"]
+  },
+  {
+    "id": "Q047",
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is paging in operating systems?",
+    "options": [
+      "A memory management scheme that eliminates the need for contiguous allocation of physical memory",
+      "A way to schedule processes",
+      "A type of file system",
+      "A method for inter-process communication"
+    ],
+    "correct_option": 0,
+    "hint": "It divides memory into fixed-size pages.",
+    "answer_keywords": ["paging", "memory management"]
+  },
+  {
+    "id": "Q048",
+    "topic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is a thread in operating systems?",
+    "options": [
+      "A lightweight process that shares the same memory space as other threads in the same process",
+      "A separate process with its own memory space",
+      "A way to manage hardware resources",
+      "A type of scheduling algorithm"
+    ],
+    "correct_option": 0,
+    "hint": "It allows concurrent execution within a process.",
+    "answer_keywords": ["thread", "lightweight process"]
+  },
+  {
+    "id": "Q049",
+    "topic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is the difference between a process and a program?",
+    "options": [
+      "A process is a program in execution, a program is a static set of instructions",
+      "A program is a process in execution, a process is a static set of instructions",
+      "There is no difference; they are the same",
+      "A process is a type of program, a program is a type of process"
+    ],
+    "correct_option": 0,
+    "hint": "Think about execution vs. static code.",
+    "answer_keywords": ["process vs program", "execution"]
+  },
+  {
+    "id": "Q050",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "What is a view in SQL?",
+    "options": [
+      "A virtual table based on the result-set of an SQL statement",
+      "A physical table stored in the database",
+      "A type of index",
+      "A way to enforce constraints"
+    ],
+    "correct_option": 0,
+    "hint": "It's not stored physically but derived from a query.",
+    "answer_keywords": ["view", "virtual table"]
+  },
+  {
+    "id": "Q051",
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "What is the time complexity of inserting an element at the end of a singly linked list?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 2,
+    "hint": "You need to traverse to the end of the list.",
+    "answer_keywords": ["linked list", "O(n)", "insertion"]
+  },
+  {
+    "id": "Q052",
+    "topic": "Data Structures",
+    "difficulty": "Hard",
+    "question": "Which data structure is best suited for implementing a Least Recently Used (LRU) cache?",
+    "options": [
+      "Array",
+      "Hash Map and Doubly Linked List",
+      "Binary Search Tree",
+      "Heap"
+    ],
+    "correct_option": 1,
+    "hint": "It requires fast access and reordering of elements.",
+    "answer_keywords": ["LRU cache", "hash map", "doubly linked list"]
+  },
+  {
+    "id": "Q053",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "What is the main advantage of a circular queue over a regular queue?",
+    "options": [
+      "It allows O(1) insertion",
+      "It reuses empty space",
+      "It supports random access",
+      "It has no size limit"
+    ],
+    "correct_option": 1,
+    "hint": "Think about how space is managed when elements are dequeued.",
+    "answer_keywords": ["circular queue", "space reuse"]
+  },
+  {
+    "id": "Q054",
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "What is the worst-case time complexity for deleting an element from a binary heap?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 1,
+    "hint": "It involves restoring the heap property.",
+    "answer_keywords": ["binary heap", "O(log n)", "deletion"]
+  },
+  {
+    "id": "Q055",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "Which data structure is used to check if a string is a palindrome?",
+    "options": ["Stack", "Queue", "Array", "Heap"],
+    "correct_option": 0,
+    "hint": "You can compare characters by reversing them.",
+    "answer_keywords": ["stack", "palindrome"]
+  },
+  {
+    "id": "Q056",
+    "topic": "Algorithms",
+    "difficulty": "Easy",
+    "question": "Which algorithm is used to detect a cycle in a graph?",
+    "options": ["BFS", "DFS", "Dijkstra's Algorithm", "Prim's Algorithm"],
+    "correct_option": 1,
+    "hint": "It can detect a back edge during traversal.",
+    "answer_keywords": ["DFS", "cycle detection"]
+  },
+  {
+    "id": "Q057",
+    "topic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What is the time complexity of Kruskal's algorithm for finding the minimum spanning tree?",
+    "options": ["O(V^2)", "O(E log E)", "O(E^2)", "O(V log V)"],
+    "correct_option": 1,
+    "hint": "It involves sorting edges.",
+    "answer_keywords": ["Kruskal", "O(E log E)", "minimum spanning tree"]
+  },
+  {
+    "id": "Q058",
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "question": "Which algorithm is used to find the strongly connected components in a directed graph?",
+    "options": [
+      "Dijkstra's Algorithm",
+      "Kosaraju's Algorithm",
+      "Prim's Algorithm",
+      "Floyd-Warshall Algorithm"
+    ],
+    "correct_option": 1,
+    "hint": "It uses two DFS traversals.",
+    "answer_keywords": ["Kosaraju", "strongly connected components"]
+  },
+  {
+    "id": "Q059",
+    "topic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What is the time complexity of the Bellman-Ford algorithm for single-source shortest paths?",
+    "options": ["O(V log V)", "O(VE)", "O(V^2)", "O(E log E)"],
+    "correct_option": 1,
+    "hint": "It iterates over all edges multiple times.",
+    "answer_keywords": ["Bellman-Ford", "O(VE)", "shortest paths"]
+  },
+  {
+    "id": "Q060",
+    "topic": "Algorithms",
+    "difficulty": "Easy",
+    "question": "Which algorithm is used to find the maximum element in an array?",
+    "options": ["Binary Search", "Linear Search", "Merge Sort", "Heap Sort"],
+    "correct_option": 1,
+    "hint": "You need to check every element.",
+    "answer_keywords": ["linear search", "maximum element"]
+  },
+  {
+    "id": "Q061",
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is the purpose of a context switch in operating systems?",
+    "options": [
+      "To switch between different operating systems",
+      "To switch between processes in the CPU",
+      "To switch between memory management schemes",
+      "To switch between file systems"
+    ],
+    "correct_option": 1,
+    "hint": "It involves saving and loading process states.",
+    "answer_keywords": ["context switch", "process switching"]
+  },
+  {
+    "id": "Q062",
+    "topic": "Operating Systems",
+    "difficulty": "Hard",
+    "question": "Which scheduling algorithm minimizes waiting time but requires knowledge of process execution times?",
+    "options": [
+      "First-Come-First-Serve",
+      "Shortest Job First",
+      "Round Robin",
+      "Priority Scheduling"
+    ],
+    "correct_option": 1,
+    "hint": "It prioritizes shorter tasks.",
+    "answer_keywords": ["Shortest Job First", "minimize waiting time"]
+  },
+  {
+    "id": "Q063",
+    "topic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is the role of the file system in an operating system?",
+    "options": [
+      "To manage files and directories on storage devices",
+      "To manage network connections",
+      "To manage CPU scheduling",
+      "To manage memory allocation"
+    ],
+    "correct_option": 0,
+    "hint": "It organizes data on disks.",
+    "answer_keywords": ["file system", "storage management"]
+  },
+  {
+    "id": "Q064",
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is thrashing in operating systems?",
+    "options": [
+      "Excessive swapping of pages between memory and disk",
+      "A deadlock situation",
+      "A process scheduling issue",
+      "A file system corruption"
+    ],
+    "correct_option": 0,
+    "hint": "It occurs when memory is overcommitted.",
+    "answer_keywords": ["thrashing", "page swapping"]
+  },
+  {
+    "id": "Q065",
+    "topic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is the purpose of an interrupt in operating systems?",
+    "options": [
+      "To signal the CPU to handle an event",
+      "To terminate a process",
+      "To allocate memory",
+      "To schedule a task"
+    ],
+    "correct_option": 0,
+    "hint": "It allows hardware to communicate with the CPU.",
+    "answer_keywords": ["interrupt", "event handling"]
+  },
+  {
+    "id": "Q066",
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "What is the purpose of the JOIN operation in SQL?",
+    "options": [
+      "To combine rows from two or more tables based on a related column",
+      "To delete rows from a table",
+      "To update rows in a table",
+      "To create a new table"
+    ],
+    "correct_option": 0,
+    "hint": "It links tables using keys.",
+    "answer_keywords": ["JOIN", "combine tables"]
+  },
+  {
+    "id": "Q067",
+    "topic": "DBMS",
+    "difficulty": "Hard",
+    "question": "What is the Boyce-Codd Normal Form (BCNF)?",
+    "options": [
+      "A stricter version of 3NF that eliminates all anomalies",
+      "A normal form that allows partial dependencies",
+      "A normal form that only applies to primary keys",
+      "A normal form that eliminates transitive dependencies"
+    ],
+    "correct_option": 0,
+    "hint": "It addresses certain types of dependencies not covered by 3NF.",
+    "answer_keywords": ["BCNF", "stricter 3NF"]
+  },
+  {
+    "id": "Q068",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "What does the GROUP BY clause in SQL do?",
+    "options": [
+      "Groups rows with the same values into summary rows",
+      "Sorts the result set",
+      "Filters rows based on a condition",
+      "Joins multiple tables"
+    ],
+    "correct_option": 0,
+    "hint": "It's used with aggregate functions like COUNT or SUM.",
+    "answer_keywords": ["GROUP BY", "aggregate"]
+  },
+  {
+    "id": "Q069",
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "What is a deadlock in the context of DBMS?",
+    "options": [
+      "When two or more transactions are waiting for each other to release locks",
+      "When a transaction fails to complete",
+      "When a transaction is rolled back",
+      "When a database runs out of memory"
+    ],
+    "correct_option": 0,
+    "hint": "It involves a cycle of waiting for resources.",
+    "answer_keywords": ["deadlock", "transaction locks"]
+  },
+  {
+    "id": "Q070",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "What is the purpose of the SELECT statement in SQL?",
+    "options": [
+      "To retrieve data from a database",
+      "To insert data into a database",
+      "To update data in a database",
+      "To delete data from a database"
+    ],
+    "correct_option": 0,
+    "hint": "It's used to query data.",
+    "answer_keywords": ["SELECT", "retrieve data"]
+  },
+  {
+    "id": "Q071",
+    "topic": "Networking",
+    "difficulty": "Medium",
+    "question": "What is the purpose of the DNS in networking?",
+    "options": [
+      "To translate domain names to IP addresses",
+      "To encrypt network traffic",
+      "To route packets between networks",
+      "To manage network bandwidth"
+    ],
+    "correct_option": 0,
+    "hint": "It resolves names to numbers.",
+    "answer_keywords": ["DNS", "domain name resolution"]
+  },
+  {
+    "id": "Q072",
+    "topic": "Networking",
+    "difficulty": "Hard",
+    "question": "What is the difference between IPv4 and IPv6?",
+    "options": [
+      "IPv6 uses 128-bit addresses, IPv4 uses 32-bit addresses",
+      "IPv4 is more secure than IPv6",
+      "IPv6 is slower than IPv4",
+      "IPv4 supports more devices than IPv6"
+    ],
+    "correct_option": 0,
+    "hint": "Think about address space size.",
+    "answer_keywords": ["IPv4 vs IPv6", "address size"]
+  },
+  {
+    "id": "Q073",
+    "topic": "Networking",
+    "difficulty": "Easy",
+    "question": "Which protocol is used to transfer files over the internet?",
+    "options": ["HTTP", "FTP", "SMTP", "DNS"],
+    "correct_option": 1,
+    "hint": "It's designed for file transfers.",
+    "answer_keywords": ["FTP", "file transfer"]
+  },
+  {
+    "id": "Q074",
+    "topic": "Networking",
+    "difficulty": "Medium",
+    "question": "What is a subnet mask used for in networking?",
+    "options": [
+      "To divide an IP address into network and host portions",
+      "To encrypt network traffic",
+      "To assign IP addresses",
+      "To route packets"
+    ],
+    "correct_option": 0,
+    "hint": "It defines the network segment.",
+    "answer_keywords": ["subnet mask", "network portion"]
+  },
+  {
+    "id": "Q075",
+    "topic": "Networking",
+    "difficulty": "Easy",
+    "question": "What does the acronym HTTP stand for?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Throughput Transfer Protocol",
+      "Hyperlink Text Protocol",
+      "Host Transfer Protocol"
+    ],
+    "correct_option": 0,
+    "hint": "It's used for web communication.",
+    "answer_keywords": ["HTTP", "web protocol"]
+  },
+  {
+    "id": "Q076",
+    "topic": "OOP",
+    "difficulty": "Medium",
+    "question": "What is the difference between method overloading and method overriding?",
+    "options": [
+      "Overloading occurs in the same class, overriding occurs in a subclass",
+      "Overriding occurs in the same class, overloading occurs in a subclass",
+      "Overloading changes the method return type, overriding does not",
+      "There is no difference"
+    ],
+    "correct_option": 0,
+    "hint": "Think about where the methods are defined.",
+    "answer_keywords": ["overloading vs overriding", "same class vs subclass"]
+  },
+  {
+    "id": "Q077",
+    "topic": "OOP",
+    "difficulty": "Hard",
+    "question": "What is the diamond problem in multiple inheritance?",
+    "options": [
+      "When a class inherits from two classes that have a common ancestor",
+      "When a class cannot inherit from multiple classes",
+      "When a class has conflicting method names",
+      "When a class inherits from a single parent"
+    ],
+    "correct_option": 0,
+    "hint": "It creates ambiguity in method resolution.",
+    "answer_keywords": ["diamond problem", "multiple inheritance"]
+  },
+  {
+    "id": "Q078",
+    "topic": "OOP",
+    "difficulty": "Easy",
+    "question": "What is encapsulation in OOP?",
+    "options": [
+      "Bundling data and methods that operate on that data",
+      "Hiding the implementation details",
+      "Allowing multiple forms of a method",
+      "Inheriting properties from a parent class"
+    ],
+    "correct_option": 0,
+    "hint": "It protects data by restricting access.",
+    "answer_keywords": ["encapsulation", "data bundling"]
+  },
+  {
+    "id": "Q079",
+    "topic": "Data Structures",
+    "difficulty": "Hard",
+    "question": "What is the time complexity of balancing a binary search tree?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 2,
+    "hint": "It may require reconstructing the tree.",
+    "answer_keywords": ["balancing BST", "O(n)"]
+  },
+  {
+    "id": "Q080",
+    "topic": "Data Structures",
+    "difficulty": "Medium",
+    "question": "Which data structure is used to implement an adjacency list for a graph?",
+    "options": ["Array of linked lists", "Binary tree", "Heap", "Stack"],
+    "correct_option": 0,
+    "hint": "Each vertex stores a list of adjacent vertices.",
+    "answer_keywords": ["adjacency list", "linked lists"]
+  },
+  {
+    "id": "Q081",
+    "topic": "Data Structures",
+    "difficulty": "Easy",
+    "question": "What is the main difference between a stack and a queue?",
+    "options": [
+      "Stack is LIFO, Queue is FIFO",
+      "Stack is FIFO, Queue is LIFO",
+      "Stack supports random access, Queue does not",
+      "There is no difference"
+    ],
+    "correct_option": 0,
+    "hint": "Think about the order of element removal.",
+    "answer_keywords": ["stack vs queue", "LIFO vs FIFO"]
+  },
+  {
+    "id": "Q082",
+    "topic": "Algorithms",
+    "difficulty": "Easy",
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correct_option": 1,
+    "hint": "It divides the search space in half each step.",
+    "answer_keywords": ["binary search", "O(log n)"]
+  },
+  {
+    "id": "Q083",
+    "topic": "Algorithms",
+    "difficulty": "Medium",
+    "question": "What is the purpose of Prim's algorithm?",
+    "options": [
+      "To find the shortest path",
+      "To find the minimum spanning tree",
+      "To detect cycles in a graph",
+      "To find strongly connected components"
+    ],
+    "correct_option": 1,
+    "hint": "It builds a tree by adding minimum-weight edges.",
+    "answer_keywords": ["Prim's algorithm", "minimum spanning tree"]
+  },
+  {
+    "id": "Q084",
+    "topic": "Algorithms",
+    "difficulty": "Hard",
+    "question": "What is the time complexity of the Floyd-Warshall algorithm?",
+    "options": ["O(V^2)", "O(V^3)", "O(VE)", "O(E log V)"],
+    "correct_option": 1,
+    "hint": "It computes all-pairs shortest paths.",
+    "answer_keywords": ["Floyd-Warshall", "O(V^3)"]
+  },
+  {
+    "id": "Q085",
+    "topic": "Operating Systems",
+    "difficulty": "Medium",
+    "question": "What is the purpose of a page table in operating systems?",
+    "options": [
+      "To map virtual addresses to physical addresses",
+      "To store process priorities",
+      "To manage file permissions",
+      "To schedule CPU tasks"
+    ],
+    "correct_option": 0,
+    "hint": "It supports virtual memory.",
+    "answer_keywords": ["page table", "virtual memory"]
+  },
+  {
+    "id": "Q086",
+    "topic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "What is the role of a scheduler in an operating system?",
+    "options": [
+      "To allocate CPU time to processes",
+      "To manage memory allocation",
+      "To handle network connections",
+      "To manage file storage"
+    ],
+    "correct_option": 0,
+    "hint": "It decides which process runs next.",
+    "answer_keywords": ["scheduler", "CPU allocation"]
+  },
+  {
+    "id": "Q087",
+    "topic": "Operating Systems",
+    "difficulty": "Hard",
+    "question": "What is the difference between user-level and kernel-level threads?",
+    "options": [
+      "User-level threads are managed by the application, kernel-level by the OS",
+      "Kernel-level threads are faster",
+      "User-level threads require kernel intervention",
+      "There is no difference"
+    ],
+    "correct_option": 0,
+    "hint": "Think about who manages the threads.",
+    "answer_keywords": ["user-level vs kernel-level threads", "management"]
+  },
+  {
+    "id": "Q088",
+    "topic": "DBMS",
+    "difficulty": "Medium",
+    "question": "What is the purpose of the HAVING clause in SQL?",
+    "options": [
+      "To filter groups created by GROUP BY",
+      "To filter individual rows",
+      "To sort the result set",
+      "To join tables"
+    ],
+    "correct_option": 0,
+    "hint": "It's used with aggregate functions.",
+    "answer_keywords": ["HAVING", "group filtering"]
+  },
+  {
+    "id": "Q089",
+    "topic": "DBMS",
+    "difficulty": "Easy",
+    "question": "What is a trigger in a database?",
+    "options": [
+      "A set of actions that are automatically executed in response to certain events",
+      "A type of index",
+      "A type of view",
+      "A type of stored procedure"
+    ],
+    "correct_option": 0,
+    "hint": "It's event-driven.",
+    "answer_keywords": ["trigger", "event-driven"]
+  },
+  {
+    "id": "Q090",
+    "topic": "DBMS",
+    "difficulty": "Hard",
+    "question": "What is the difference between a clustered and a non-clustered index?",
+    "options": [
+      "Clustered index determines the physical order of data, non-clustered does not",
+      "Non-clustered index is faster",
+      "Clustered index allows duplicates, non-clustered does not",
+      "There is no difference"
+    ],
+    "correct_option": 0,
+    "hint": "Think about how data is stored on disk.",
+    "answer_keywords": ["clustered vs non-clustered index", "physical order"]
+  }
+]

@@ -1,0 +1,4 @@
+tkinter
+matplotlib
+python-dotenv
+google-generativeai
